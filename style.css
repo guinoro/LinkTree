@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Silkscreen', cursive;
+}
+
+body {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(0, 0, 0)), to(rgb(48, 47, 47))) fixed;
+}
+
+.box1 {
+    margin-top: 50px;
+}
+
+.center {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100%;
+    max-width: 125px;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.desc {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+.desc p {
+    color: white(41, 40, 40);
+}
+
+.desc h2 {
+    font-weight: normal;
+}
+
+.link {
+    width: 100%;
+    text-align: center;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.link .link-a{
+    font-weight: normal;
+    position: relative; 
+    padding: 10px;
+    border-radius: 7px;
+    border:3px solid white;
+    margin: 17px 0;
+    transition: 0.3s;
+}
+
+.link .link-a:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.link .link-a i {
+    position: absolute;
+    left: 25px;
+    line-height: 1.0;
+    font-size: 25px;
+}
+
+.link .link-a h3{
+    font-weight: normal;
+}
